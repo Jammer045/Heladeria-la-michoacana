@@ -1,3 +1,7 @@
+import paletaMango from '../assets/Paleta_de_mango.jpg'
+import paletaNuez from '../assets/Paleta_de_nuez.jpg'
+import paletaGuanabana from '../assets/Paleta_de_guanabana.jpg'
+
 const products = [
   {
     id: 1,
@@ -5,7 +9,7 @@ const products = [
     precio: 35,
     categoria: 'frutas',
     descripcion: 'Paleta cremosa de mango manila con trocitos de fruta natural.',
-    imageUrl: 'https://images.unsplash.com/photo-1546039907-7b3a4d0a5e31?w=400&h=300&fit=crop',
+    imageUrl: paletaMango,
   },
   {
     id: 2,
@@ -45,7 +49,7 @@ const products = [
     precio: 40,
     categoria: 'cremosas',
     descripcion: 'Paleta cremosa de nuez con caramelo artesanal.',
-    imageUrl: 'https://images.unsplash.com/photo-1596591868264-4bf66e91db9c?w=400&h=300&fit=crop',
+    imageUrl: paletaNuez,
   },
   {
     id: 7,
@@ -69,7 +73,7 @@ const products = [
     precio: 40,
     categoria: 'frutas',
     descripcion: 'Exótica paleta de guanábana, dulce y refrescante.',
-    imageUrl: 'https://images.unsplash.com/photo-1501746877-14f8e0d07c94?w=400&h=300&fit=crop',
+    imageUrl: paletaGuanabana,
   },
   {
     id: 10,
